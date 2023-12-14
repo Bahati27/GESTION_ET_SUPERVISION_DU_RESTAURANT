@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.8.34322.80
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GESTION_ET_SUPERVISION_DU_RESTAURANT", "GESTION_ET_SUPERVISION_DU_RESTAURANT.csproj", "{0A96F0FB-A857-42EB-97C3-3CB7FB1683EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code", "Code", "{A90B6A90-99E1-4C4E-A812-E43BC98C5C43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A96F0FB-A857-42EB-97C3-3CB7FB1683EA} = {A90B6A90-99E1-4C4E-A812-E43BC98C5C43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A0A751E9-5EB7-4F55-8332-D5A445FFB649}
